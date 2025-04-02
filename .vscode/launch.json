@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/LIA_24_BMCU.elf",
+            "name": "Debug with OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "STM32WB55CG",
+            "configFiles": [
+                "C:/dev/tools/openocd/openocd/scripts/interface/stlink.cfg",
+                "C:/dev/tools/openocd/openocd/scripts/target/stm32wbax.cfg"
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "raw"
+        }
+    ]
+}

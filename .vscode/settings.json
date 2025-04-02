@@ -1,0 +1,35 @@
+{
+    "cortex-debug.gdbPath": "C:/dev/tools/gcc-arm-none-eabi-13.3/bin/arm-none-eabi-gdb",
+    "cortex-debug.openocdPath": "C:/dev/tools/openocd/bin/openocd.exe",
+    "terminal.integrated.profiles.windows" : {
+        "msys mingw64": {
+            "path": "C:/msys64/msys2_shell.cmd",
+            "args": [
+                "-defterm",
+                "-here",
+                "-no-start",
+                "-mingw64"
+            ]
+        }
+    },
+    "files.associations": {
+        "string.h": "c",
+        "filter_max30102.h": "c",
+        "MAX30102.h": "c",
+        "stdio.h": "c",
+        "stm32wbxx_hal_i2c.h": "c",
+        "stm32wbxx_hal.h": "c",
+        "tt_lis2dw12.h": "c",
+        "lis2dw12_reg.h": "c",
+        "compare": "c",
+        "type_traits": "cpp",
+        "stdint.h": "c",
+        "uart.h": "c",
+        "math.h": "c",
+        "max_sensor.h": "c",
+        "float.h": "c",
+        "stm32wba55xx.h": "c",
+        "stm32wbaxx_hal_rcc.h": "c",
+        "stm32wbaxx_hal_icache.h": "c"
+    }
+}
